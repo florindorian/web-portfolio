@@ -1,7 +1,11 @@
 :root {
+    --cor0: black;
     --cor1: #AFEB00;
-    --cor2: #3C462E;
-    --cor3: #B7CE63;
+    --cor2: #B7CE63;
+    --cor3: #3C462E;
+    --cor4: #30332B;
+    --cor5: #DADDD8;
+    --cor6: white;
 }
 
 body {
@@ -58,7 +62,7 @@ nav a {
 
 h2 {
     margin: 20px 0;
-    color: var(--cor3);
+    color: var(--cor2);
 }
 
 .projeto {
@@ -73,3 +77,64 @@ h2 {
     margin-bottom: 10px;
 }
 
+
+/* GRID DO PORTFÓLIO */
+.grid-container-portfolio {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-container-portfolio > div {
+    height: 300px;
+    box-sizing: border-box;
+    text-align: center;
+    align-content: center;
+    /*border: 1px solid black;*/
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 20px;
+}
+
+.grid-container-portfolio > div:hover {
+    transform: translateY(-10px);
+}
+
+@media (max-width: 800px) {
+    .grid-container-portfolio {
+        grid-template-columns: auto;
+    }
+}
+
+/* CARDS DO PORTFÓLIO */
+
+div.back-top {
+    background-color: var(--cor4);
+    border-radius: 20px 20px 0 0;
+    height: 80%;
+}
+
+div.back-bottom {
+    background-color: var(--cor1);
+    border-radius: 20px 0px 20px 20px;
+}
+
+div.front-top {
+    border-radius: 20px 20px 0 20px;
+    padding: 5px;
+    background-color: var(--cor1);
+    height: 100%;
+    box-sizing: border-box;
+}
+
+div.front-bottom {
+    border-radius: 0 20px 20px 20px;
+    padding: 5px;
+    background-color: var(--cor4);
+    box-sizing: border-box;
+    color: var(--cor6);
+}
+
+.front-top > img {
+    max-height: 100%;
+}
