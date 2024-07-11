@@ -18,6 +18,8 @@ header {
     background-color: var(--cor1);
     padding: 20px;
     box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    display: flex; 
+    flex-flow: row;
 }
 
 main {
@@ -52,13 +54,18 @@ nav a {
     color: #333;
 }
 
+.container-foto-perfil {
+    margin-right: 20px;
+}
+
 .foto-perfil {
     width: 100px;
     /*box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);*/
     border: white solid;
     box-sizing: border-box;
 }
-/*end HEADER*/
+/*HEADER: end*/
+
 
 h2 {
     margin: 20px 0;
@@ -108,26 +115,27 @@ h2 {
 
 /* CARDS DO PORTFÓLIO */
 
-div.back-top {
+.back-top {
     background-color: var(--cor4);
     border-radius: 20px 20px 0 0;
     height: 80%;
 }
 
-div.back-bottom {
+.back-bottom {
     background-color: var(--cor1);
     border-radius: 20px 0px 20px 20px;
 }
 
-div.front-top {
+.front-top {
     border-radius: 20px 20px 0 20px;
     padding: 5px;
     background-color: var(--cor1);
     height: 100%;
     box-sizing: border-box;
+    align-content: center;
 }
 
-div.front-bottom {
+.front-bottom {
     border-radius: 0 20px 20px 20px;
     padding: 5px;
     background-color: var(--cor4);
@@ -135,6 +143,23 @@ div.front-bottom {
     color: var(--cor6);
 }
 
-.front-top > img {
+div.front-top img {
+    max-width: 100%;
     max-height: 100%;
+    object-fit: contain;
+}
+
+
+/* CONTATO: estilos */
+
+.contact-section {
+    margin-bottom: 100px;
+}
+
+section.contact-section ul {
+    list-style-type: none;
+}
+
+hr {
+    border: 1px solid var(--cor2);
 }
