@@ -13,24 +13,24 @@
 
 <br>
 <details>
-  <summary>Índice</summary><br>
+  <summary>📖 Índice</summary><br>
   
-- [ Visão Geral](#-overview)
-- [ Recursos ](#-features)
-- [ Usando o projeto ](#-getting-started)
-  - [ Instalação ](#-installation)
-  - [ Visualização ](#-usage)
-- [ Licença ](#-license)
+- [Visão Geral](#visao-geral)
+- [Recursos](#recursos)
+- [Usando o projeto](#usando-o-projeto)
+  - [Instalação](#instalação)
+  - [Visualização](#visualização)
+- [Licença](#licença)
 </details>
 <hr>
 
-##  Visão Geral
+## 📍 Visão Geral
 
 Web-Portfolio é uma vitrine online projetada para destacar as habilidades e experiência de Florindo Rian como desenvolvedor. O portfólio apresenta uma grade de projetos visualmente atraente, cada um com uma miniatura, descrição e link para o repositório GitHub correspondente. Os visitantes podem aprender sobre a experiência técnica, formação acadêmica e jornada profissional de Florindo por meio de páginas dedicadas Sobre e Contato.
 
 ---
 
-##  Recursos
+## 🧩 Recursos
 
 |    |   Feature         | Description |
 |----|-------------------|---------------------------------------------------------------|
@@ -40,9 +40,9 @@ Web-Portfolio é uma vitrine online projetada para destacar as habilidades e exp
 
 ---
 
-##  Usando o projeto
+## 🚀 Usando o projeto
 
-###  Instalação
+### ⚙️ Instalação
 
 <h4>A partir do código-fonte:</h4>
 
@@ -52,19 +52,19 @@ Web-Portfolio é uma vitrine online projetada para destacar as habilidades e exp
 > $ git clone https://github.com/florindorian/web-portfolio
 > ```
 
-###  Visualização
+### 🖥 Visualização
 
 <h4>A partir do código-fonte:</h4>
 
 > + Abra o arquivo `index.html` usando o navegador de sua preferência
 > + Navegue entre as páginas listadas no menu do portfólio
 
-<h4>Usando o <a href='https://florindorian.github.io/web-portfolio/'>Website</a> hospedado no <span style="color: green;">GitHub Pages</span>:</h4>
+<h4>Usando o <a href='https://florindorian.github.io/web-portfolio/'>Website</a> hospedado no GitHub Pages:</h4>
 
 > + Link: https://florindorian.github.io/web-portfolio/
 ---
 
-##  License
+## 📄 Licença
 
 Este projeto está distribuído sob a **MIT License**. Para mais detalhes, consulte o arquivo [LICENSE](./LICENSE).
 

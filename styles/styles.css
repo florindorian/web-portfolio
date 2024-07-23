@@ -39,6 +39,7 @@ footer {
 
 h1 {
     color: var(--cor4);
+    font-size: 8vw;
 }
 
 h2 {
@@ -56,7 +57,7 @@ h2 {
 }
 
 .foto-perfil {
-    width: 100px;
+    width: 16vw;
     /*box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);*/
     border: 5px solid var(--cor4);
     border-radius: 5%;
@@ -115,7 +116,7 @@ h2 {
 /* GRID DO PORTFÓLIO: início */
 .grid-container-portfolio {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: auto;
     gap: 20px;
     padding: 20px;
 }
@@ -201,9 +202,17 @@ hr {
 
 
 /* MEDIA QUERIES */
-@media (max-width: 800px) {
+@media (min-width: 600px) {
     .grid-container-portfolio {
-        grid-template-columns: auto;
+        grid-template-columns: 50% 50%;
+    }
+
+    .foto-perfil {
+        width: 100px;
+    }
+
+    h1 {
+        font-size: 3rem;
     }
 }
 
@@ -220,6 +229,7 @@ hr {
 @media screen and (max-width: 600px) {
     .responsive {
         position: fixed;
+        z-index: 1;
     }
     .topnav.responsive {
       /*position: fixed;
