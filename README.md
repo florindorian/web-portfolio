@@ -36,7 +36,6 @@ Web-Portfolio é uma vitrine online projetada para destacar as habilidades e exp
 |----|-------------------|---------------------------------------------------------------|
 | ⚙️  | **Arquitetura**  | O portfólio utiliza uma arquitetura simples do lado do cliente com HTML e CSS. É um site estático sem lógica do lado do servidor. |
 | 🧩 | **Modularidade**    | O projeto tem uma separação clara de preocupações com HTML para estrutura, CSS para estilo e páginas separadas para conteúdos diferentes. No entanto, a base de código é relativamente pequena e não apresenta modularidade complexa. |
-| 📦 | **Dependências**  | As principais dependências incluem HTML e CSS, sem o uso de bibliotecas ou estruturas JavaScript externas.  |
 
 ---
 
@@ -69,3 +68,6 @@ Web-Portfolio é uma vitrine online projetada para destacar as habilidades e exp
 Este projeto está distribuído sob a **MIT License**. Para mais detalhes, consulte o arquivo [LICENSE](./LICENSE).
 
 ---
+
+## 🧑🏻‍💻 Autor
+Florindo Rian Silva Carreteiro
